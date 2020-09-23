@@ -17,4 +17,11 @@ Pulso Político por provincias
   <br/>
   Finalmente en kibana se realizaron las visualizaciones, ya que kibana tiene el benfecio de conectarse con elasticsearch, es aquí donde se realizaron visualizaciones de tag cloud, mapas de calor, barras laterales y pastel. Las visualizaciones se encuentran en la carpeta comprimida "Visualizaciones pulso politico por provincias".<br/>
   <br/>
-  
+  En la carpeta <strong>Evento o noticial mundial</strong> se encuentra los datasets utilizados para la recopilación de la información. También se encuentra el archivo de PowerBI con todas las visualizaciones realizadas con la información obtenida.
+  <br/>
+  <br/>
+  En la carpeta **Video Juegos** se encuentra el dataset que se utilizó para realizar el análisis. También se encuentra el archivo de PowerBI con el dashboaard respectivo.
+  <br/>
+  <br/>
+  Se adjunta la dirección del cluster de MomgoDB donde se encuentra la Base de Datos general de todo el proyecto.
+  <b>mongodb+srv://yolo13a:12345@cluster0.lhnsz.mongodb.net/test</b>
