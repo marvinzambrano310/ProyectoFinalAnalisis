@@ -1,8 +1,9 @@
-# ProyectoFinalAnalisis
+# Proyecto Final Análisis
 #
 Pulso Politico por Ciudades
   Este tema tiene un solo origin de datos que son los tweets del Pulso politico en las diferetes ciudades de Ecuador. 
-  Los datos se recopilarían mediante un scrpit "Tweets Ciudades.py" de tweets con las credenciales de la API de Twitter. Estso dats se guardaran en una database ciudades y en cada coleccion los datos de cada tweet.
+  Los datos se recopilarían mediante un scrpit "Tweets Ciudades.py" de tweets con las credenciales de la API de Twitter. Estso datos se guardaran en una database ciudades y en cada coleccion los datos de cada tweet.
+  <br/>
   Al finalizar los datos se indexaran a Elastisearch, pero antes se debian mover a CouchDB por el inconveniente de que no existe plugin de input en Logstash,a se que con el archivo "Paso de Datos a Diferentes Bases.txt", y asi subirlos a Couch, una vez desde aqui se los indexara a Elastichsearch mediante Logstash con el archivo "couchdb.conf".
   Cuando se indexen los datos a elastic, se procede a unir con kibana y crear un index pattern que servira para tomar los datos desde elasticsearh y realizar las visualizaciones correspondientes.
   estas se pueden visualizar desde el archivo rar "Visualizaciones Kibana".
